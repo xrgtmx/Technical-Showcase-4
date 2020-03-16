@@ -1,0 +1,84 @@
+/*
+  index.css
+  -----------------------------------------
+  Technical Showcase 3
+  Website designed by Ryan "xRGTMx" Gudonis
+  © 2017
+*/
+
+/* Full Container & Wrap */
+html, body, .container-full, .container-wrap {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.container-wrap td { 
+	vertical-align: middle; 
+	text-align: center;
+}
+
+/* Home/Splash Page */
+div#splash {
+  background-image: url('../img/yukariki-ichihime.png');
+  background-size: cover;
+  background-position: center;
+	background-repeat: no-repeat;
+}
+div#splash h1 {
+  padding: 0;
+  margin-bottom: 0em;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 0.5s;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+div#splash h1 img {
+  width: 100%;
+  max-width: 10em;
+  height: auto;
+}
+div#splash a, div#splash a:visited {
+	font-weight: bold;
+	text-transform: uppercase;
+  color: #f2e230;
+	background: #000;
+  font-size: 300%;
+  letter-spacing: -0.03125em;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+}
+div#splash a:hover, div#splash a:active {
+  background: #0d1dcf;
+  color: #fff;
+  border-radius: 0;
+}
+div#splash a {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 1.5s;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* Animation */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+	div#splash h1 {
+  	margin-bottom: 0.25em;
+	}
+}
+@media (max-width: 767px) {
+  div#splash a {
+    font-size: 250%;
+  }
+}

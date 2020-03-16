@@ -1,0 +1,103 @@
+/*
+  countdown.css
+  -----------------------------------------
+  Technical Showcase 4
+  Website designed by Ryan "xRGTMx" Gudonis
+  © 2018
+*/
+
+/* IT'S THE FINAL COUNTDOWN */
+div.countdown {
+	margin: 1em 0 2em 0;
+  padding: 1em; 
+  line-height: 1em;
+  text-align: center;
+}
+div.countdown p#date, p#numSubsOuter {
+  font-size: 112.5%;
+  line-height: 1em;
+}
+div.countdown h1 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 6em;
+  margin: 0;
+}
+div.countdown p.countdown-label {
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* DoDoDooo Doooooooo, DoDoDo Do Doooooo */
+@media (max-width: 1199px) {
+  div.countdown h1 {
+    font-size: 4em;
+  }
+}
+@media (max-width: 991px) {
+  div.countdown h1 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 767px) {
+  div.countdown h1 {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 575px) {
+  div.countdown h1 {
+    font-size: 2em;
+  }
+  div.countdown p#date, p#numSubsOuter {
+    font-size: 100%;
+  }
+  .hidden-xs-down {
+    display: none;
+  }
+}
+
+/*
+  The Final Countdown
+  Written by Joey Tempest, Performed by Europe, Released in 1986
+  
+  (ten, nine, eight, seven, six, five, four, three, two, one)
+  
+  We're leaving together,
+  But still it's farewell.
+  And maybe we'll come back
+  To earth, who can tell?
+  I guess there is no one to blame
+  We're leaving ground (leaving ground)
+  Will things ever be the same again?
+  
+  It's the final countdown.
+  The final countdown...
+  
+  Oh!
+  
+  We're heading for Venus (Venus)
+  And still we stand tall
+  'Cause maybe they've seen us (seen us)
+  And welcome us all, yeah.
+  With so many light years to go
+  And things to be found (to be found)
+  I'm sure that we'll all miss her so.
+  
+  It's the final countdown...
+  The final count down [2x]
+  
+  The final count down
+  Oh!
+  
+  It's the final count down
+  The final count down [2x]
+  
+  It's the final count down
+  We're leaving together
+  The final count down
+  We'll all miss her so.
+  It's the final count down.
+  
+  Oh!
+  It's the final count down.
+*/
