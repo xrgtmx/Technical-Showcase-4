@@ -3,12 +3,13 @@
   -----------------------------------------
   Technical Showcase 4
   Website designed by Ryan "xRGTMx" Gudonis
-  © 2018
+  © 2020
 */
 
 /* Mobile Enhancement */
 html { 
 	-webkit-text-size-adjust: none; 
+  background: #000;
 }
 @-ms-viewport { 
 	width: device-width; 
@@ -19,12 +20,14 @@ html, body {
   -moz-appearance: none;
   -o-appearance: none;
   -ms-appearance: none;
-  background-color: #f2e230;
 	color: #000;
 	font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1.5em;
+}
+body {
+  background-color: #f2e230;
 }
 b, strong, th {
   font-weight: bold;
