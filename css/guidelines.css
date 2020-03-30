@@ -36,6 +36,7 @@ table#rubric th.points, table#rubric td.points {
 /* Round 1 Breakdown */
 table#breakdown {
   line-height: 100%;
+  box-shadow: 0.25em 0.25em rgba(0,0,0,0.8);
 }
 table#breakdown td {
   padding: 0.1em;
