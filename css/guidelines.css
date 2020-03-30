@@ -12,15 +12,26 @@ table#rubric {
   border-collapse: collapse;
 }
 table#rubric th {
+  font-size: 125%;
+  text-align: center;
   border-bottom: 1px solid #000;
 }
 table#rubric td {
+  font-size: 125%;
+  text-align: center;
+  padding: 2px;
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 table#rubric tr.total td {
   font-size: 125%;
   font-style: italic;
+  font-weight: bold;
   border-bottom: none;
+}
+table#rubric td.description {
+  font-size: 80%;
+  line-height: 125%;
+  text-align: justify;
 }
 
 /* Round 1 Breakdown */
@@ -31,8 +42,18 @@ table#breakdown td {
   padding: 0.75em 0;
   font-size: 4em;
 }
+.bg-discretion {
+  background-image: linear-gradient(to bottom, #dc3545, #28a745)
+}
 
 /* Media Queries */
+.for-wide {
+  display: inherit;
+}
+.for-narrow {
+  display: none;
+}
+
 @media (max-width: 1199px) {
   table#breakdown td {
     font-size: 3em;
@@ -53,5 +74,11 @@ table#breakdown td {
 @media (max-width: 575px) {
   table#breakdown td {
     font-size: 1.5em;
+  }
+  .for-wide {
+    display: none;
+  }
+  .for-narrow {
+    display: inherit;
   }
 }
