@@ -35,6 +35,18 @@ setInterval(function() {
   document.getElementById("hours").innerHTML = doubleDigit(hr);
   document.getElementById("minutes").innerHTML = doubleDigit(min);
   document.getElementById("seconds").innerHTML = doubleDigit(sec);
+
+  // Swap out "Time's Up!" for the countdown if we're past the deadline.
+  if (distance < 0)
+  {
+    document.getElementById("countdown-pos").style.display = "none";
+    document.getElementById("countdown-neg").style.display = "flex";
+  }
+  else
+  {
+    document.getElementById("countdown-pos").style.display = "flex";
+    document.getElementById("countdown-neg").style.display = "none";
+  }
 }, 1000);
 
 /*

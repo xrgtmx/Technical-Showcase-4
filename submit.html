@@ -142,7 +142,7 @@
     <!-- Countdown --> 
 		<div class="countdown text-white bg-danger">
       <p id="date"><strong>Qualifiers Deadline:</strong><br>April 20, 2020 @ 11:59 PM PDT</p>
-	  	<div class="row justify-content-center">
+	  	<div id="countdown-pos" class="row justify-content-center" style="display: flex;">
 				<div class="col-3 col-md-3">
 					<h1 id="days">00</h1>
 					<p class="countdown-label">Days</p>
@@ -158,6 +158,12 @@
 				<div class="col-3 col-md-3">
 					<h1 id="seconds">00</h1>
 					<p class="countdown-label">Sec<span class="hidden-xs-down">onds</span></p>
+				</div>
+      </div>
+      <div id="countdown-neg" class="row justify-content-center" style="display: none;">
+				<div class="col-12 col-md-6">
+          <h1 id="times-up">Time's Up!</h1>
+          <p class="countdown-label">&nbsp;</p>
 				</div>
       </div>
 			<p id="numSubsOuter"><strong>Entries:</strong><h1>48</h1>(as of April 19, 2020)</p>
