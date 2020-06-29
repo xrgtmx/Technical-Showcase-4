@@ -78,6 +78,21 @@ li.nav-item a.nav-link {
 li.nav-item.active a.nav-link, li.nav-item a.nav-link:hover {
   color: #ff3434 !important;
 }
+div.dropdown-menu {
+  background: #f2e230;
+  border-radius: 0;
+}
+div.dropdown-menu a.dropdown-item {
+  font-weight: bold;
+}
+div.dropdown-menu a.dropdown-item.active {
+  color: #ff3434;
+  background: #f2e230;
+}
+div.dropdown-menu a.dropdown-item:hover,
+div.dropdown-menu a.dropdown-item.active:hover {
+  background: rgba(0,0,0,0.05);
+}
 
 /* Big Boy Submit Section */
 div#bigboy {
