@@ -7,7 +7,7 @@
 */
 
 // Set the date of the deadline.
-var countdownDate = new Date("Apr 20, 2020 23:59:59 GMT-07:00").getTime();
+var countdownDate = new Date("Aug 2, 2020 23:59:59 GMT-07:00").getTime();
 
 // Update the count down every 1 second.
 setInterval(function() {
