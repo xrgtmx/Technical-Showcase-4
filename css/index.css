@@ -7,24 +7,27 @@
 */
 
 /* Full Container & Wrap */
-html, body, .container-full, .container-wrap {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: 0;
+html,
+body,
+.container-full,
+.container-wrap {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-.container-wrap td { 
-	vertical-align: middle; 
-	text-align: center;
+.container-wrap td {
+  vertical-align: middle;
+  text-align: center;
 }
 
 /* Home/Splash Page */
 div#splash {
-  background-image: url('../img/yukariki-ichihime.png');
+  background-image: url("../img/yukariki-ichihime.png");
   background-size: cover;
   background-position: center;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 div#splash h1 {
   padding: 0;
@@ -41,17 +44,19 @@ div#splash h1 img {
   max-width: 10em;
   height: auto;
 }
-div#splash a, div#splash a:visited {
-	font-weight: bold;
-	text-transform: uppercase;
+div#splash a,
+div#splash a:visited {
+  font-weight: bold;
+  text-transform: uppercase;
   color: #f2e230;
-	background: #000;
+  background: #000;
   font-size: 300%;
   letter-spacing: -0.03125em;
   text-decoration: none;
   padding: 0.5em 0.75em;
 }
-div#splash a:hover, div#splash a:active {
+div#splash a:hover,
+div#splash a:active {
   background: #0d1dcf;
   color: #fff;
   border-radius: 0;
@@ -67,15 +72,19 @@ div#splash a {
 
 /* Animation */
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Media Queries */
 @media (max-width: 991px) {
-	div#splash h1 {
-  	margin-bottom: 0.25em;
-	}
+  div#splash h1 {
+    margin-bottom: 0.25em;
+  }
 }
 @media (max-width: 767px) {
   div#splash a {

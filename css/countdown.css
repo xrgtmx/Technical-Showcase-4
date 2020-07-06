@@ -8,8 +8,8 @@
 
 /* IT'S THE FINAL COUNTDOWN */
 div.countdown {
-	margin: 1em 0 2em 0;
-  padding: 1em; 
+  margin: 1em 0 2em 0;
+  padding: 1em;
   line-height: 1em;
   text-align: center;
 }
@@ -30,8 +30,8 @@ div.countdown h1 {
   margin: 0;
 }
 div.countdown p.countdown-label {
-	line-height: 1em;
-	margin-bottom: 0.5em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* DoDoDooo Doooooooo, DoDoDo Do Doooooo */
@@ -54,7 +54,8 @@ div.countdown p.countdown-label {
   div.countdown h1 {
     font-size: 2em;
   }
-  div.countdown p#date, p#numSubsOuter {
+  div.countdown p#date,
+  p#numSubsOuter {
     font-size: 100%;
   }
   .hidden-xs-down {

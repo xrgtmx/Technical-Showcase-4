@@ -17,8 +17,8 @@ table#rubric th {
   border-bottom: 1px solid #000;
 }
 table#rubric td {
-  border-bottom: 1px solid rgba(0,0,0,0.15);
-  padding: 0.25em 0.5em 0.25em 0;;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.25em 0.5em 0.25em 0;
 }
 table#rubric tr.total td {
   font-size: 125%;
@@ -28,7 +28,8 @@ table#rubric tr.total td {
 table#rubric td.cat {
   font-weight: 500;
 }
-table#rubric th.points, table#rubric td.points {
+table#rubric th.points,
+table#rubric td.points {
   text-align: right;
   padding-right: 0;
 }
@@ -36,7 +37,7 @@ table#rubric th.points, table#rubric td.points {
 /* Round 1 Breakdown */
 table#breakdown {
   line-height: 100%;
-  box-shadow: 0.5em 0.5em 0 #343a40; 
+  box-shadow: 0.5em 0.5em 0 #343a40;
 }
 table#breakdown td {
   padding: 0.75em 0;

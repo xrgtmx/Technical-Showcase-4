@@ -7,52 +7,62 @@
 */
 
 /* Mobile Enhancement */
-html { 
-	-webkit-text-size-adjust: none; 
-    background: #000;
+html {
+  -webkit-text-size-adjust: none;
+  background: #000;
 }
-@-ms-viewport { 
-	width: device-width; 
+@-ms-viewport {
+  width: device-width;
 }
 /* Body, Containers, Wrappers */
-html, body {
+html,
+body {
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
   -ms-appearance: none;
-	color: #000;
-	font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 1.5em;
+  color: #000;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 body {
   background-color: #f2e230;
 }
-b, strong, th {
+b,
+strong,
+th {
   font-weight: bold;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1em;
   font-weight: bold;
 }
 h1 {
-	font-family: "Work Sans","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 6em;
-    margin-top: 0.25em;
+  font-family: "Work Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 6em;
+  margin-top: 0.25em;
 }
-h1, h2 { 
-	text-transform: uppercase;
+h1,
+h2 {
+  text-transform: uppercase;
 }
 a {
   color: #ff3434;
   transition: 0.15s ease-in-out;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   color: #0d1dcf;
 }
-hr { 
-	margin: 1.5em 0; 
+hr {
+  margin: 1.5em 0;
 }
 
 /* Header */
@@ -60,7 +70,7 @@ div#header {
   width: 100%;
   position: fixed;
   z-index: 10000 !important;
-	box-shadow: rgba(0,0,0,0.1) 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px;
 }
 div#header-offset {
   margin-bottom: 5em;
@@ -68,14 +78,15 @@ div#header-offset {
 
 /* Navbar */
 .navbar {
-	font-weight: bold;
-	text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
   background: #f2e230;
 }
 li.nav-item a.nav-link {
-	color: #000 !important;
+  color: #000 !important;
 }
-li.nav-item.active a.nav-link, li.nav-item a.nav-link:hover {
+li.nav-item.active a.nav-link,
+li.nav-item a.nav-link:hover {
   color: #ff3434 !important;
 }
 div.dropdown-menu {
@@ -91,7 +102,7 @@ div.dropdown-menu a.dropdown-item.active {
 }
 div.dropdown-menu a.dropdown-item:hover,
 div.dropdown-menu a.dropdown-item.active:hover {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Big Boy Submit Section */
@@ -101,17 +112,19 @@ div#bigboy {
   padding: 10em 0;
   text-align: center;
 }
-a#bigbutton, a#bigbutton:visited {
-	background: #000;
+a#bigbutton,
+a#bigbutton:visited {
+  background: #000;
   color: #f2e230;
   font-weight: bold;
-	text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 4em;
   line-height: 1em;
   text-decoration: none;
   padding: 0.5em 0.75em;
 }
-a#bigbutton:hover, a#bigbutton:active {
+a#bigbutton:hover,
+a#bigbutton:active {
   background: #0d1dcf;
   color: #fff;
 }
@@ -139,13 +152,14 @@ footer {
   }
 }
 @media (min-width: 992px) {
-	.hidden-lg-up {
-		display: none;
-	}
+  .hidden-lg-up {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
-  html, body { 
-    font-size: 18px; 
+  html,
+  body {
+    font-size: 18px;
   }
   h1 {
     font-size: 4em;
@@ -153,7 +167,8 @@ footer {
   div#header {
     position: relative;
   }
-  div#header-offset, div#header-offset-alt {
+  div#header-offset,
+  div#header-offset-alt {
     display: none;
   }
 }
@@ -161,20 +176,25 @@ footer {
   h1 {
     font-size: 3em;
   }
-  a#bigbutton, a#bigbutton:visited {
+  a#bigbutton,
+  a#bigbutton:visited {
     padding: 0.5em 0.75em;
     font-size: 3em;
   }
 }
 @media (max-width: 575px) {
-  html, body { font-size: 16px; }
+  html,
+  body {
+    font-size: 16px;
+  }
   nav.navbar.deadline {
     font-size: 12px;
   }
   h1 {
     font-size: 2.5em;
   }
-  a#bigbutton, a#bigbutton:visited {
+  a#bigbutton,
+  a#bigbutton:visited {
     font-size: 2em;
   }
   div#bigboy {

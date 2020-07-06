@@ -7,17 +7,19 @@
 */
 
 /* Graphics */
-a.graphic img, a.graphic-alt img {
-	width: 100%; 
-	border: 2px solid #ff3434;
+a.graphic img,
+a.graphic-alt img {
+  width: 100%;
+  border: 2px solid #ff3434;
   transition: 0.15s ease-in-out;
 }
 a.graphic img {
-	max-width: 12em;
+  max-width: 12em;
 }
 a.graphic-alt img {
-	max-width: 6em;
+  max-width: 6em;
 }
-a.graphic:hover img, a.graphic-alt:hover img {
-	border-color: #0d1dcf;
+a.graphic:hover img,
+a.graphic-alt:hover img {
+  border-color: #0d1dcf;
 }

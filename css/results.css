@@ -30,10 +30,10 @@ div.row.winner div.simfile h5 {
 }
 div.row.winner.first {
   background: #ffefbf;
-  background: -webkit-linear-gradient(#ffefbf,#ffdf80);
-  background: -o-linear-gradient(#ffefbf,#ffdf80);
-  background: -moz-linear-gradient(#ffefbf,#ffdf80);
-  background: linear-gradient(#ffefbf,#ffdf80);
+  background: -webkit-linear-gradient(#ffefbf, #ffdf80);
+  background: -o-linear-gradient(#ffefbf, #ffdf80);
+  background: -moz-linear-gradient(#ffefbf, #ffdf80);
+  background: linear-gradient(#ffefbf, #ffdf80);
 }
 div.row.winner.first div.place h3 {
   color: #ffbf00;
@@ -45,10 +45,10 @@ div.row.winner.first div.simfile {
 }
 div.row.winner.second {
   background: #e6ecf2;
-  background: -webkit-linear-gradient(#e6ecf2,#c3d4e5);
-  background: -o-linear-gradient(#e6ecf2,#c3d4e5);
-  background: -moz-linear-gradient(#e6ecf2,#c3d4e5);
-  background: linear-gradient(#e6ecf2,#c3d4e5);
+  background: -webkit-linear-gradient(#e6ecf2, #c3d4e5);
+  background: -o-linear-gradient(#e6ecf2, #c3d4e5);
+  background: -moz-linear-gradient(#e6ecf2, #c3d4e5);
+  background: linear-gradient(#e6ecf2, #c3d4e5);
 }
 div.row.winner.second div.place h3 {
   color: #acb6bf;
@@ -60,10 +60,10 @@ div.row.winner.second div.simfile {
 }
 div.row.winner.third {
   background: #ffd9b2;
-  background: -webkit-linear-gradient(#ffd9b2,#f2b06d);
-  background: -o-linear-gradient(#ffd9b2,#f2b06d);
-  background: -moz-linear-gradient(#ffd9b2,#f2b06d);
-  background: linear-gradient(#ffd9b2,#f2b06d);
+  background: -webkit-linear-gradient(#ffd9b2, #f2b06d);
+  background: -o-linear-gradient(#ffd9b2, #f2b06d);
+  background: -moz-linear-gradient(#ffd9b2, #f2b06d);
+  background: linear-gradient(#ffd9b2, #f2b06d);
 }
 div.row.winner.third div.place h3 {
   color: #c60;
@@ -75,10 +75,10 @@ div.row.winner.third div.simfile {
 }
 div.row.winner.fourth {
   background: #ffddff;
-  background: -webkit-linear-gradient(#ffddff,#f279d4);
-  background: -o-linear-gradient(#ffddff,#f279d4);
-  background: -moz-linear-gradient(#ffddff,#f279d4);
-  background: linear-gradient(#ffddff,#f279d4);
+  background: -webkit-linear-gradient(#ffddff, #f279d4);
+  background: -o-linear-gradient(#ffddff, #f279d4);
+  background: -moz-linear-gradient(#ffddff, #f279d4);
+  background: linear-gradient(#ffddff, #f279d4);
   border-color: #f279d4;
 }
 div.row.winner.fourth div.place h3 {
@@ -89,7 +89,6 @@ div.row.winner.fourth div.simfile {
   background: #ffd8f4;
   color: #800060;
 }
-
 
 /* Media Queries for Winners, not LOOSERS... */
 @media (max-width: 1199px) {
@@ -143,7 +142,7 @@ div.row.winner.fourth div.simfile {
 /* Horizontally Scrolling Tables */
 div.scrolltable {
   font-family: "Inter", sans-serif;
-  display: block; 
+  display: block;
   overflow-x: auto;
   text-align: center;
 }
@@ -152,9 +151,9 @@ div.scrolltable table {
   white-space: nowrap;
   width: 100%;
 }
-div.scrolltable table td:nth-child(2), 
-div.scrolltable table td:nth-child(3), 
-div.scrolltable table th:nth-child(2), 
+div.scrolltable table td:nth-child(2),
+div.scrolltable table td:nth-child(3),
+div.scrolltable table th:nth-child(2),
 div.scrolltable table th:nth-child(3) {
   text-align: left;
 }
@@ -162,24 +161,30 @@ div.scrolltable th.judge {
   min-width: 4em;
   text-align: center;
 }
-div.scrolltable th.total, div.scrolltable td:nth-child(9) {
+div.scrolltable th.total,
+div.scrolltable td:nth-child(9) {
   min-width: 4em;
   font-weight: bold;
 }
-div.scrolltable table, div.scrolltable table tr, div.scrolltable th, div.scrolltable td {
-	border: 1px solid rgba(0,0,0,0.25)
+div.scrolltable table,
+div.scrolltable table tr,
+div.scrolltable th,
+div.scrolltable td {
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
-div.scrolltable table th, div.scrolltable table td {
-	padding: 0.1em 0.5em;
+div.scrolltable table th,
+div.scrolltable table td {
+  padding: 0.1em 0.5em;
 }
-a.results, a.results:visited {
-	font-weight: bold; 
-	padding: 0.5em 1em; 
-	background: #ff3434;
-	color: #fff;
-	text-decoration: none;
-	transition: 0.2s ease-in-out;
+a.results,
+a.results:visited {
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background: #ff3434;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 a.results:hover {
-	background: #0d1dcf;
+  background: #0d1dcf;
 }

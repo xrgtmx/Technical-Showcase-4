@@ -8,8 +8,8 @@
 
 /* Prize Boxes */
 div.prize-box {
-  text-align: center; 
-  margin-bottom: 1em; 
+  text-align: center;
+  margin-bottom: 1em;
   border: 4px solid #f2e230;
 }
 div.prize-box h3 {
@@ -21,10 +21,17 @@ div.prize-box h4 {
   font-weight: 600;
   margin-bottom: 0;
 }
-div.prize-box div.prize-header, div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third, div.prize-box div.prize-fourth {
+div.prize-box div.prize-header,
+div.prize-box div.prize-first,
+div.prize-box div.prize-second,
+div.prize-box div.prize-third,
+div.prize-box div.prize-fourth {
   border: 2px solid #f2e230;
 }
-div.prize-box div.prize-first, div.prize-box div.prize-second, div.prize-box div.prize-third, div.prize-box div.prize-fourth {
+div.prize-box div.prize-first,
+div.prize-box div.prize-second,
+div.prize-box div.prize-third,
+div.prize-box div.prize-fourth {
   padding: 0.5em 0.125em;
 }
 div.prize-box div.prize-header {
@@ -32,21 +39,21 @@ div.prize-box div.prize-header {
 }
 div.prize-box div.prize-first {
   background: #ffdf80;
-  background: -webkit-linear-gradient(#ffefbf,#ffdf80);
-  background: -o-linear-gradient(#ffefbf,#ffdf80);
-  background: -moz-linear-gradient(#ffefbf,#ffdf80);
-  background: linear-gradient(#ffefbf,#ffdf80);
+  background: -webkit-linear-gradient(#ffefbf, #ffdf80);
+  background: -o-linear-gradient(#ffefbf, #ffdf80);
+  background: -moz-linear-gradient(#ffefbf, #ffdf80);
+  background: linear-gradient(#ffefbf, #ffdf80);
 }
-div.prize-box div.prize-first h4 { 
+div.prize-box div.prize-first h4 {
   color: #ffbf00;
   text-shadow: #bf8f00 0.03125em 0.03125em;
 }
 div.prize-box div.prize-second {
   background: #e6ecf2;
-  background: -webkit-linear-gradient(#e6ecf2,#c3d4e5);
-  background: -o-linear-gradient(#e6ecf2,#c3d4e5);
-  background: -moz-linear-gradient(#e6ecf2,#c3d4e5);
-  background: linear-gradient(#e6ecf2,#c3d4e5);
+  background: -webkit-linear-gradient(#e6ecf2, #c3d4e5);
+  background: -o-linear-gradient(#e6ecf2, #c3d4e5);
+  background: -moz-linear-gradient(#e6ecf2, #c3d4e5);
+  background: linear-gradient(#e6ecf2, #c3d4e5);
 }
 div.prize-box div.prize-second h4 {
   color: #acb6bf;
@@ -54,10 +61,10 @@ div.prize-box div.prize-second h4 {
 }
 div.prize-box div.prize-third {
   background: #ffd9b2;
-  background: -webkit-linear-gradient(#ffd9b2,#f2b06d);
-  background: -o-linear-gradient(#ffd9b2,#f2b06d);
-  background: -moz-linear-gradient(#ffd9b2,#f2b06d);
-  background: linear-gradient(#ffd9b2,#f2b06d);
+  background: -webkit-linear-gradient(#ffd9b2, #f2b06d);
+  background: -o-linear-gradient(#ffd9b2, #f2b06d);
+  background: -moz-linear-gradient(#ffd9b2, #f2b06d);
+  background: linear-gradient(#ffd9b2, #f2b06d);
 }
 div.prize-box div.prize-third h4 {
   color: #c60;
@@ -65,10 +72,10 @@ div.prize-box div.prize-third h4 {
 }
 div.prize-box div.prize-fourth {
   background: #ffccff;
-  background: -webkit-linear-gradient(#ffccff,#f279d4);
-  background: -o-linear-gradient(#ffccff,#f279d4);
-  background: -moz-linear-gradient(#ffccff,#f279d4);
-  background: linear-gradient(#ffccff,#f279d4);
+  background: -webkit-linear-gradient(#ffccff, #f279d4);
+  background: -o-linear-gradient(#ffccff, #f279d4);
+  background: -moz-linear-gradient(#ffccff, #f279d4);
+  background: linear-gradient(#ffccff, #f279d4);
 }
 div.prize-box div.prize-fourth h4 {
   color: #c09;
@@ -81,7 +88,6 @@ div.prize-box div.prize-fourth h4 {
   }
 }
 
-
 /* Judges */
 div.judge img {
   width: 100%;
@@ -93,11 +99,11 @@ div.judge p {
   line-height: 1em;
 }
 div.judge span {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-style: italic;
   font-size: 80%;
 }
 div.judge h3 {
-	font-size: 125%; 
-	font-weight: bold;
+  font-size: 125%;
+  font-weight: bold;
 }

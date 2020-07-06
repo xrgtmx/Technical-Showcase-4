@@ -10,26 +10,26 @@
 var countdownDate = new Date("Aug 2, 2020 23:59:59 GMT-07:00").getTime();
 
 // Update the count down every 1 second.
-setInterval(function() {
+setInterval(function () {
   "use strict";
 
   // Get date and time at the current moment
   var now = new Date().getTime();
-  
+
   // Find the distance between now an the countdown date
   var distance = countdownDate - now;
-  
+
   // Time calculations for days, hours, minutes, and seconds
   var day = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hr  = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var hr = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var sec = Math.floor((distance % (1000 * 60)) / 1000);
- 
+
   // I like leading zeros, it makes the timer look even.
-  function doubleDigit(n){
+  function doubleDigit(n) {
     return (n < 10 ? "0" : "") + n;
   }
-  
+
   // Output the result in elements
   document.getElementById("days").innerHTML = doubleDigit(day);
   document.getElementById("hours").innerHTML = doubleDigit(hr);
@@ -37,13 +37,10 @@ setInterval(function() {
   document.getElementById("seconds").innerHTML = doubleDigit(sec);
 
   // Swap out "Time's Up!" for the countdown if we're past the deadline.
-  if (distance < 0)
-  {
+  if (distance < 0) {
     document.getElementById("countdown-pos").style.display = "none";
     document.getElementById("countdown-neg").style.display = "flex";
-  }
-  else
-  {
+  } else {
     document.getElementById("countdown-pos").style.display = "flex";
     document.getElementById("countdown-neg").style.display = "none";
   }
