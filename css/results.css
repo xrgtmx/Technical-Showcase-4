@@ -94,12 +94,12 @@ div.row.winner.fourth div.simfile {
 /* Media Queries for Winners, not LOOSERS... */
 @media (max-width: 1199px) {
   div.row.winner div.place h3 {
-    font-size: 2.75em;
+    font-size: 2.5em;
   }
 }
 @media (max-width: 991px) {
   div.row.winner div.place h3 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   div.row.winner div.simfile h4 {
     font-size: 2.5em;
@@ -113,7 +113,7 @@ div.row.winner.fourth div.simfile {
 }
 @media (max-width: 767px) {
   div.row.winner div.place h3 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
   div.row.winner div.simfile h4 {
     font-size: 2em;
@@ -126,6 +126,9 @@ div.row.winner.fourth div.simfile {
   }
 }
 @media (max-width: 575px) {
+  div.row.winner div.place h3 {
+    font-size: 1.5em;
+  }
   div.row.winner div.simfile h4 {
     font-size: 1.75em;
   }
@@ -142,16 +145,24 @@ div.scrolltable {
   font-family: "Inter", sans-serif;
   display: block; 
   overflow-x: auto;
+  text-align: center;
 }
 div.scrolltable table {
   font-size: 75%;
   white-space: nowrap;
   width: 100%;
 }
+div.scrolltable table td:nth-child(2), 
+div.scrolltable table td:nth-child(3), 
+div.scrolltable table th:nth-child(2), 
+div.scrolltable table th:nth-child(3) {
+  text-align: left;
+}
 div.scrolltable th.judge {
   min-width: 4em;
+  text-align: center;
 }
-div.scrolltable th.total, div.scrolltable td.total {
+div.scrolltable th.total, div.scrolltable td:nth-child(9) {
   min-width: 4em;
   font-weight: bold;
 }
